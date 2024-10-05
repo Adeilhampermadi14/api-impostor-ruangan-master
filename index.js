@@ -43,7 +43,7 @@ app.use(bodyParser.json());
  
 app.use(
   cors({
-    origin: ["https://proyek-3-dyuv89q3d-ilhampermadis-projects.vercel.app"],
+    origin: ["https://proyek-3.vercel.app"],
     methods: ["POST", "PUT", "GET", "DELETE", "OPTIONS", "HEAD"],
     credentials: true,
   })
