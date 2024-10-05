@@ -43,7 +43,7 @@ app.use(bodyParser.json());
  
 app.use(
   cors({
-    origin: ["https://ruangan-impostor.vercel.app","https://vercel.com/ilhampermadis-projects/proyek-3/GMNrSSrKwRLSkgJEpSiWnV1CJHxm"],
+    origin: ["https://proyek-3-dyuv89q3d-ilhampermadis-projects.vercel.app"],
     methods: ["POST", "PUT", "GET", "DELETE", "OPTIONS", "HEAD"],
     credentials: true,
   })
